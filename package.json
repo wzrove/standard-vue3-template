@@ -29,7 +29,7 @@
     "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
     "vite": "^2.9.9",
-    "vue-eslint-parser": "^8.3.0",
+    "vue-eslint-parser": "^9.0.2",
     "vue-tsc": "^0.34.15"
   }
 }
