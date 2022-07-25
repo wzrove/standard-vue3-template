@@ -19,7 +19,7 @@
     "@commitlint/config-conventional": "^16.2.4",
     "@typescript-eslint/eslint-plugin": "5.23.0",
     "@typescript-eslint/parser": "5.23.0",
-    "@vitejs/plugin-vue": "^2.3.3",
+    "@vitejs/plugin-vue": "^3.0.1",
     "eslint": "^8.15.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-define-config": "^1.4.0",
