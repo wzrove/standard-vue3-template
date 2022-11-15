@@ -5,6 +5,6 @@
     "editorconfig.editorconfig",
     "vue.volar",
     "Vue.vscode-typescript-vue-plugin",
-    "voorjaar.windicss-intellisense"
+    "bradlc.vscode-tailwindcss"
   ]
 }
