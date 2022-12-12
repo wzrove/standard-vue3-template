@@ -20,7 +20,7 @@
     "@tailwindcss/typography": "^0.5.8",
     "@typescript-eslint/eslint-plugin": "5.45.1",
     "@typescript-eslint/parser": "5.45.1",
-    "@vitejs/plugin-vue": "^3.2.0",
+    "@vitejs/plugin-vue": "^4.0.0",
     "autoprefixer": "^10.4.13",
     "daisyui": "^2.42.1",
     "eslint": "^8.29.0",
