@@ -7,6 +7,6 @@ module.exports = {
   proseWrap: 'never',
   htmlWhitespaceSensitivity: 'strict',
   endOfLine: 'auto',
-  plugins: [require('prettier-plugin-tailwindcss')],
+  plugins: [import('prettier-plugin-tailwindcss')],
   tailwindConfig: './tailwind.config.js',
 };
