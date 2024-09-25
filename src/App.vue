@@ -45,11 +45,11 @@
     license: '',
     homepage: '',
   });
-  const isActiveName = computed(() => (name: string) => curACtiveName.value == name);
+  const isActiveName = computed(() => (name: string) => curACtiveName.value === name);
   const baseNpmUrl = 'https://registry.npmmirror.com';
   const fetchNpmInfo = async (name: string) => {
-    if (curACtiveName.value == name) {
-      return;
+    if (curACtiveName.value === name) {
+      return new Error('当前页面重复');
     }
     curACtiveName.value = name;
     curItemInfo.license = '';
@@ -66,7 +66,7 @@
     url.value = homepage;
   };
   // openHomePage()
-  fetchNpmInfo('vue').then(openHomePage);
+  fetchNpmInfo('vue').then(openHomePage).catch(console.error);
 </script>
 
 <style>
