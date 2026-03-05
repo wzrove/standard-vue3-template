@@ -22,7 +22,7 @@
 		"@tailwindcss/typography": "^0.5.15",
 		"@vitejs/plugin-vue": "^5.1.4",
 		"autoprefixer": "^10.4.20",
-		"daisyui": "^4.12.10",
+		"daisyui": "^5.5.19",
 		"husky": "^9.1.6",
 		"lint-staged": "^15.2.10",
 		"postcss": "^8.4.47",
