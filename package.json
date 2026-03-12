@@ -20,7 +20,7 @@
 		"@commitlint/config-conventional": "^19.5.0",
 		"@iconify-json/ep": "^1.2.0",
 		"@tailwindcss/typography": "^0.5.15",
-		"@vitejs/plugin-vue": "^5.1.4",
+		"@vitejs/plugin-vue": "^6.0.5",
 		"autoprefixer": "^10.4.20",
 		"daisyui": "^4.12.10",
 		"husky": "^9.1.6",
