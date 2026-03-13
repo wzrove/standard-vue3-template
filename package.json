@@ -15,7 +15,7 @@
 		"vue-router": "^4.4.5"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.9.2",
+		"@biomejs/biome": "2.4.7",
 		"@commitlint/cli": "^19.5.0",
 		"@commitlint/config-conventional": "^19.5.0",
 		"@iconify-json/ep": "^1.2.0",
