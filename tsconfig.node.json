@@ -1,12 +1,12 @@
 {
-  "compilerOptions": {
-    "composite": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"],
-    }
-  },
-  "include": ["vite.config.ts"]
+	"compilerOptions": {
+		"composite": true,
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"]
+		}
+	},
+	"include": ["vite.config.ts"]
 }

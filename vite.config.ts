@@ -1,3 +1,5 @@
+import { resolve } from "node:path";
+import tailwindcss from "@tailwindcss/vite";
 import vue from "@vitejs/plugin-vue";
 import AutoImport from "unplugin-auto-import/vite";
 import IconsResolver from "unplugin-icons/resolver";
@@ -5,15 +7,13 @@ import Icons from "unplugin-icons/vite";
 import Components from "unplugin-vue-components/vite";
 import { defineConfig } from "vite";
 
-import { resolve } from "node:path";
-
 function pathResolve(dir: string) {
 	return resolve(process.cwd(), ".", dir);
 }
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [
-		vue(),
+		vue({}),
 		AutoImport({
 			imports: ["vue", "vue-router"],
 		}),
@@ -31,6 +31,7 @@ export default defineConfig({
 			autoInstall: true,
 			compiler: "vue3",
 		}),
+		tailwindcss(),
 	],
 	base: "./",
 	resolve: {
