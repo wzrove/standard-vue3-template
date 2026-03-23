@@ -12,29 +12,29 @@
 	},
 	"dependencies": {
 		"vue": "^3.5.30",
-		"vue-router": "^5.0.3",
+		"vue-router": "^5.0.4",
 		"daisyui": "^5.5.19"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.4.7",
-		"@commitlint/cli": "^20.4.4",
-		"@commitlint/config-conventional": "^20.4.4",
+		"@biomejs/biome": "2.4.8",
+		"@commitlint/cli": "^20.5.0",
+		"@commitlint/config-conventional": "^20.5.0",
 		"@iconify-json/ep": "^1.2.4",
 		"@tailwindcss/typography": "^0.5.19",
-		"@tailwindcss/postcss": "^4.2.1",
-		"@tailwindcss/vite": "^4.2.1",
+		"@tailwindcss/postcss": "^4.2.2",
+		"@tailwindcss/vite": "^4.2.2",
 		"@vitejs/plugin-vue": "^6.0.5",
 		"autoprefixer": "^10.4.27",
 		"husky": "^9.1.7",
 		"lint-staged": "^16.4.0",
 		"postcss": "^8.5.8",
-		"tailwindcss": "^4.2.1",
+		"tailwindcss": "^4.2.2",
 		"typescript": "^5.9.3",
 		"unplugin-auto-import": "^21.0.0",
 		"unplugin-icons": "^23.0.1",
-		"unplugin-vue-components": "^31.0.0",
-		"vite": "^8.0.0",
-		"vue-tsc": "^3.2.5"
+		"unplugin-vue-components": "^31.1.0",
+		"vite": "^8.0.2",
+		"vue-tsc": "^3.2.6"
 	},
-	"packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b"
+	"packageManager": "pnpm@9.15.9+sha512.68046141893c66fad01c079231128e9afb89ef87e2691d69e4d40eee228988295fd4682181bae55b58418c3a253bde65a505ec7c5f9403ece5cc3cd37dcf2531"
 }
