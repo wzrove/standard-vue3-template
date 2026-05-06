@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      daisyui:
+        specifier: ^5.5.19
+        version: 5.5.19
       vue:
         specifier: ^3.5.30
         version: 3.5.30(typescript@5.9.3)
@@ -42,9 +45,6 @@ importers:
       autoprefixer:
         specifier: ^10.4.27
         version: 10.4.27(postcss@8.5.8)
-      daisyui:
-        specifier: ^5.5.19
-        version: 5.5.19
       husky:
         specifier: ^9.1.7
         version: 9.1.7
